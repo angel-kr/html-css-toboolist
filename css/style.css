@@ -1,13 +1,17 @@
+/**************************** box reset ****************************/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-header {
-    background-color: rgb(255, 255, 255);
+header.container {
+    background-color: white;
 }
 
-main {
+
+
+main div.main-box {
     background-color: #f6f8fa;
+    padding-bottom: 100%;
 }
